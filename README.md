@@ -1,4 +1,4 @@
-# checklists
+# ☑️ checklists
 
 A collection of checklists and decision trees for scientists and engineers.
 
