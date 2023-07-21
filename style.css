@@ -10,15 +10,17 @@ body {
   line-height: 1.7;
   padding: 1em;
   margin: auto;
-  max-width: 42em;
   background: #fefefe;
 }
 
 h1, h2, h3 {
   color: #3d85c6;
   line-height: 125%;
-  margin-top: 2em;
   font-weight: normal;
+}
+
+h2, h3 {
+  margin-top: 2em;
 }
 
 h3 {
@@ -50,4 +52,20 @@ pre, code, kbd, samp {
   _font-family: Consolas, "Courier New", monospace;
   font-size: 100%;
   font-weight: bold;
+}
+
+footer {
+  font-size: 80%;
+  text-align: center;
+  margin-top: 2em;
+  color: #999;
+}
+
+.checklist li {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+.checklist h2 {
+  margin-top: 2em;
 }

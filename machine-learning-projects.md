@@ -1,13 +1,8 @@
----
-title: Machine learning project review checklist 
-author: The Contributors
-footer: v0.6  •   © 2023 The Contributors  •  Licensed CC BY 4.0  •  https://ageo.co/checklist
-...
+# Machine learning project review checklist
 
-# Machine learning project review checklist 
+<!-- See end of document for list of authors -->
 
-**MUST-ASK QUESTIONS IN BOLD**
-
+<div class="checklist">
 
 ## High-level questions about the project
 
@@ -59,6 +54,10 @@ footer: v0.6  •   © 2023 The Contributors  •  Licensed CC BY 4.0  •  http
 - [ ] How will you improve the model?
 - [ ] Would collecting more data help? Can we address any imbalance with more data?
 - [ ] Are there human or computing resources you need access to?
+
+</div>
+
+<footer>v1.0  •   © 2023 The Contributors  •  Licensed CC BY 4.0</footer>
 
 
 ---
@@ -468,10 +467,13 @@ The team may need some resources or help to do the best possible job; it makes s
 
 ---
 
-# Changelog
+# Additional information
 
 
-## v0.6, July 2023
+## Changelog
+
+
+### v1.0, July 2023
 
 - Clarified that 'cross validation' means 'multi-fold cross-validation' to D.6 and T.5.
 - Added question about 'when?' to D.7, along with explanatory paragraph.
@@ -480,8 +482,13 @@ The team may need some resources or help to do the best possible job; it makes s
 - Made code elements more obvious.
 - Fixed various typos.
 
+In addition to the content changes, there were some important changes in how the page is being hosted, hence the major version change.
 
-## v0.5, January 2023
+- Moved the file to [https://github.com/scienxlab/checklists](https://github.com/scienxlab/checklists) in order to be able to keep multiple checklists together and eventually create a web page for them.
+- Changed the format to [Markdown](https://www.markdownguide.org/basic-syntax/), with styles applied via CSS using a tool like Pandoc. Instructions for conversion added to the README, but eventually we'll publish them on the aforementioned web page.
+
+
+### v0.5, January 2023
 
 - Added further reading.
 - Added more notes about leakage to D.3 and D.5.
@@ -491,7 +498,7 @@ The team may need some resources or help to do the best possible job; it makes s
 - Updated author ORCIDs and affiliations.
 
 
-## v0.4, May 2021
+### v0.4, May 2021
 
 - Added commentary pages.
 - Added the question numbers for easier reference.
@@ -509,30 +516,28 @@ The team may need some resources or help to do the best possible job; it makes s
 - Changed T.9 to a question about state-of-the-art, because it was a repeat.
 
 
-## v0.3, July 2020
+### v0.3, July 2020
 
 - Changed 'normalization' to 'normalization or standardization'.
 - Added 'some form of CV' to validation options. 
 
 
-## v0.2, April 2019
+### v0.2, April 2019
 
 - Split 'feature engineering' into 'data augmentation (rows)' and 'feature engineering (columns)'.
 
 
-## v0.1, March 2019
+### v0.1, March 2019
 
 - Added question about dummy classifier.
 
 
-## v0.0, March 2019
+### v0.0, March 2019
 
 - Initial content.
 
 
----
-
-# Further reading
+## Further reading
 
 An unsorted and slightly random collection of resources that emphasize responsible, high quality machine learning.
 
@@ -543,7 +548,7 @@ An unsorted and slightly random collection of resources that emphasize responsib
 - Sayash Kapoor & Arvind Narayanan (2022), Leakage and the Reproducibility Crisis in ML-based Science, [arXiv:2207.07048v1](https://arxiv.org/pdf/2207.07048.pdf) \[cs.LG]. 
 
 
-# Contributors
+## Contributors
 
 - [**Matt Hall**](https://orcid.org/0000-0002-4054-8295), Equinor & scienxlab.org (first draft and subsequent updates).
 - **Anton Biryukov**, Ramp.com (essential questions and emphasizing validation).
