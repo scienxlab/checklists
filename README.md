@@ -18,14 +18,13 @@ In the near future, we will provide PDFs via links from this repository.
 
 ## Contents
 
-- **[machine-learning-review](./machine-learning-review.md)** &mdash; Annotated checklist for people running or reviewing machine learning projects.
-- **[machine-learning-planning](./machine-learning-planning.md)** &mdash; Annotated checklist specifically for earth scientists planning machine learning projects.
+- [**machine-learning-review**](./machine-learning-review.md) &mdash; Annotated checklist for people running or reviewing machine learning projects.
+- [**machine-learning-planning**](./machine-learning-planning.md) &mdash; Annotated checklist specifically for earth scientists planning machine learning projects.
+- [**reproducible-science-projects**](./reproducible-science-projects.md) &mdash; An aspirational wishlist for open source and reproducible scientific repos.
 
 
 ## Coming soon
 
-- Reproducible scientific project ~~checklist~~wishlist
-- Machine learning project planning checklist
 - Open data checklist
 - Benchmark dataset checklist
 - Scientific presentation checklist
