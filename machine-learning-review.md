@@ -2,7 +2,7 @@
 
 <!-- See end of document for list of authors -->
 
-<div class="checklist">
+<div class="compact">
 
 ## High-level questions about the project
 
