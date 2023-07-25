@@ -546,9 +546,10 @@ An unsorted and slightly random collection of resources that emphasize responsib
 
 - Andriy Burkov (2019), _The Hundred-Page Machine Learning Book_, <https://themlbook.com/>. 
 - Andriy Burkov (2020), _Machine Learning Engineering_, [http://www.mlebook.com/](http://www.mlebook.com/wiki/doku.php).
-- Sebastian Raschka (2018), Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning, [arXiv:1811.12808](https://arxiv.org/abs/1811.12808) \[cs.LG]. 
-- Cathay O'Neil (2016), _Weapons of Math Destruction_, Penguin.
 - Sayash Kapoor & Arvind Narayanan (2022), Leakage and the Reproducibility Crisis in ML-based Science, [arXiv:2207.07048v1](https://arxiv.org/pdf/2207.07048.pdf) \[cs.LG]. 
+- Margaret Mitchell, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, Timnit Gebru (2018), Model cards for model reporting, [arXiv:1810.03993v2](https://arxiv.org/abs/1810.03993) \[cs.LG].
+- Cathy O'Neil (2016), _Weapons of Math Destruction_, Penguin.
+- Sebastian Raschka (2018), Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning, [arXiv:1811.12808](https://arxiv.org/abs/1811.12808) \[cs.LG].
 
 
 ## Contributors
