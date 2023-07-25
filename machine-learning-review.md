@@ -15,7 +15,7 @@
 - [ ] Which data scientists were involved in this analysis?
 - [ ] Which tools or framework did you use? (How much of a known quantity is it?)
 - [ ] Where is the pipeline published? (E.g. public or internal git repositories.)
-- [ ] How thorough is the testing and documentation?
+- [ ] How thorough is the testing and documentation? Is there a model card?
 
 
 ## Questions about the data preparation
@@ -174,7 +174,7 @@ Maintaining the code in an open repository (public or corporate) has several adv
 - Build automated, so-called 'continuous integration' pipelines.
 
 
-### P.10 How thorough is the testing and documentation?
+### P.10 How thorough is the testing and documentation? Is there a model card?
 
 "Untested code is broken code." Without tests, it's impossible to know for certain that the code works correctly. Once a project moves beyond basic proof of concept, organizations should insist on tests being part of the project.
 
@@ -187,6 +187,8 @@ Likewise, documentation is essential. The level should depend on the degree to w
 5. Peer-reviewed and citable (e.g. a paper or book).
 
 People sometimes talk about code being 'self-documenting'. This might allow a developer to avoid writing code comments, but clean, readable code — while important — is almost never a substitute for proper documentation.
+
+A model card (Michell et al, 2018) is a good way to summarize important facts about your model, including intended audience, key metrics, and other relevant information. Consider including a `MODEL_CARD.md` file in your project repository.
 
 
 ## Questions about the data preparation
@@ -475,6 +477,7 @@ The team may need some resources or help to do the best possible job; it makes s
 
 ### v1.0, July 2023
 
+- Added question about model cards to P.10.
 - Clarified that 'cross validation' means 'multi-fold cross-validation' to D.6 and T.5.
 - Added question about 'when?' to D.7, along with explanatory paragraph.
 - Added remarks about hyperparameters, random seeds, and non-model-related arguments to T.2.
