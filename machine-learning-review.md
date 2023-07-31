@@ -332,6 +332,8 @@ A model's hyperparameters affect the structure and learning process of the model
 
 It can be more efficient to search in logarithmic space, and for some hyperparameters this is essential. For example, it makes sense to try values of `alpha` (the regularization parameter) like `[0.001, 0.00316, 0.01, 0.0316, 0.1]` — that is, `np.logspace(-3, -1, 5)` — because it can vary over such a wide range.
 
+Be wary of finding optimal values near the gaps or bounds of your search. For example, if you search for values of `n_neighbours` in `[1, 3, 5, 7]` and the best value is 5, then you should check `[6, 7, 8]` next. On the other hand, if the best value is 7 then you should check some larger values next.
+
 Deep neural networks often have a large number of hyperparameters, for example controlling the gradient descent algorithm. You should have some idea of what they are doing by reading the documentation and experimenting with the hyperparameters.
 
 Be aware that many libraries implement hyperparameters as model arguments, making them difficult to distinguish from other model settings that do not have an effect on the training outcome, e.g. the number of compute cores to use. 
@@ -480,7 +482,7 @@ The team may need some resources or help to do the best possible job; it makes s
 - Added question about model cards to P.10.
 - Clarified that 'cross validation' means 'multi-fold cross-validation' to D.6 and T.5.
 - Added question about 'when?' to D.7, along with explanatory paragraph.
-- Added remarks about hyperparameters, random seeds, and non-model-related arguments to T.2.
+- Added remarks about hyperparameters, random seeds, range boundaries, and non-model-related arguments to T.2.
 - Added training–validation metric comparison remarks to T.7 comments.
 - Made code elements more obvious.
 - Fixed various typos.
