@@ -1,6 +1,6 @@
 # ☑️ checklists
 
-A collection of checklists and decision trees for scientists and engineers.
+A collection of checklists, lists, and decision trees for scientists and engineers.
 
 The checklists are maintained as [Markdown](https://www.markdownguide.org/) files for convenience, but can be rendered in other formats using conversion tools like [pandoc](https://pandoc.org/). For example, to render the `machine-learning-review` checklist as a PDF, you can do this:
 
@@ -18,7 +18,7 @@ In the near future, we will provide PDFs via links from this repository.
 
 ## Contents
 
-- [`machine-learning-pitfalls`](./machine-learning-pitfalls.md) &mdash; ✨ <span style="color:#dd0000">NEW</span> ✨ A non-exhaustive list of pitfalls in planning, executing and implementing machine learning projects.
+- [`machine-learning-pitfalls`](./machine-learning-pitfalls.md) &mdash; ✨ NEW ✨ A non-exhaustive list of pitfalls in planning, executing and implementing machine learning projects.
 - [`machine-learning-review`](./machine-learning-review.md) &mdash; Annotated checklist for people running or reviewing machine learning projects. Originally published in [this blog post](https://agilescientific.com/blog/2019/4/9/machine-learning-project-review-checklist).
 - [`machine-learning-planning`](./machine-learning-planning.md) &mdash; Annotated checklist specifically for earth scientists planning machine learning projects.
 - [`reproducible-science-projects`](./reproducible-science-projects.md) &mdash; An aspirational wishlist for open source and reproducible scientific repos.
@@ -32,4 +32,4 @@ In the near future, we will provide PDFs via links from this repository.
 - Computing course checklist
 - Hackathon planning checklist
 - Which programming language should I learn first?
-- So you want to build a Python app
+- So you want to build a Python app?
